@@ -103,7 +103,7 @@ async def apply_watermark(callback: types.CallbackQuery):
                 except: pass
         user_files.pop(user_id, None)
 
-# Фіктивний веб-сервер для задоволення порту Render
+# Веб-сервер для прохождения проверки порта на Render
 async def handle_ping(request):
     return web.Response(text="Bot is running!")
 
